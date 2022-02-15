@@ -2,13 +2,34 @@
 Name=OSX
 Inherits=Mint-X-Aqua,gnome,hicolor
 Comment=Icon theme built for Linux Mint. Uses elements of Faenza and Elementary.
-Directories=apps/scalable,places/scalable
+Directories=actions/scalable,actions/16,apps/scalable,categories/scalable,places/scalable
 Example=directory-x-normal
+
+[actions/scalable]
+Context=Actions
+Type=Scalable
+Size=128
+MinSize=8
+MaxSize=512
+
+[actions/16]
+Context=Actions
+Type=Fixed
+Size=16
+MinSize=8
+MaxSize=512
 
 [apps/scalable]
 Context=Apps
 Type=Scalable
 Size=48
+MinSize=8
+MaxSize=512
+
+[categories/scalable]
+Context=Categories
+Type=Scalable
+Size=128
 MinSize=8
 MaxSize=512
 
