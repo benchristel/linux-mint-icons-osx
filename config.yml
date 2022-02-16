@@ -1,0 +1,174 @@
+icons:
+  #-------------------------------------------------------#
+  # ACTIONS                                               #
+  #-------------------------------------------------------#
+
+  # Save
+  - names:
+      - document-save-symbolic
+      - document-save
+      - filesave
+      - gtk-save
+      - stock_save
+    categories: [actions]
+    sizes:
+      512: floppy-disk-1.png
+  
+  # Copy
+  - names:
+      - edit-copy-symbolic
+      - edit-copy
+      - editcopy
+      - gtk-copy
+      - stock_copy
+    categories: [actions]
+    sizes:
+      512: two-documents-1.png
+
+  #-------------------------------------------------------#
+  # APPLICATIONS                                          #
+  #-------------------------------------------------------#
+
+  # TextEdit
+  - names:
+      - accessories-text-editor
+    categories: [apps]
+    sizes:
+      512: textedit-1.png
+  
+  # System Preferences, System Settings
+  - names:
+      - configuration_section
+      - control-center2
+      - dconf-editor
+      - drakconf
+      - gconf-editor
+      - gconfeditor
+      - gkdebconf-icon
+      - gkdebconf
+      - gnome-desktop-config
+      - gnome-settings
+      - gtk-preferences
+      - org.xfce.settings.manager
+      - paprefs
+      - preferences-desktop
+      - preferences-desktop-personal
+      - redhat-preferences
+      - redhat-server_settings
+      - redhat-tools
+      - startupmanager
+      - xfce4-mcs-manager
+      - xfce4-settings
+    categories: [apps, categories]
+    sizes:
+      512: osx-system-preferences-1.png
+
+  # LibreOffice Writer, Microsoft Word, Word:Mac
+  - names:
+      - libreoffice-writer
+    categories: [apps]
+    sizes:
+      512: wordmac-1.png
+  
+  # Chromium, Google Chrome
+  - names:
+      - chromium
+    categories: [apps]
+    sizes:
+      512: googlechrome-1.png
+  
+  # Desktop
+  - names:
+      - desktop
+      - gnome-ccdesktop
+      - gnome-desktop-config
+      - gnome-fs-desktop
+      - org.xfce.panel.showdesktop
+      - org.xfce.xfdesktop
+      - other-desktop
+      - user-desktop
+    categories: [apps, places]
+    sizes:
+      24: desktop-2.png
+      512: desktop-1.png
+
+  # Rhythmbox, iTunes
+  - names:
+      - org.gnome.Rhythmbox
+    categories: [apps]
+    sizes:
+      512: itunes-1.png
+  
+  # System File Manager, Nemo, Finder
+  - names:
+      - system-file-manager
+    categories: [apps]
+    sizes:
+      512: osx-finder-1.png
+
+  #-------------------------------------------------------#
+  # PLACES                                                #
+  #-------------------------------------------------------#
+
+  # Generic Folder, Directory
+  - names:
+      - folder
+      - folder-drag-accept
+      - gnome-folder
+      - gnome-fs-directory
+      - gnome-fs-directory-accept
+      - gtk-directory
+      - inode-directory
+      - nemo
+      - org.xfce.panel.directorymenu
+      - stock_folder
+    categories: [places]
+    sizes:
+      512: osx-folder-1.png
+
+  # Downloads Folder
+  - names:
+      - folder-download
+      - folder_download
+      - folder-downloads
+    categories: [places]
+    sizes:
+      512: osx-folder-downloads-1.png
+
+  # Home
+  - names:
+      - folder_home
+      - folder-home
+      - gnome-fs-home
+      - gnome-home
+      - user-home
+    categories: [places]
+    sizes:
+      512: osx-home-1.png
+
+  # Trash
+  - names:
+      - edittrash
+      - gnome-dev-trash-empty
+      - gnome-fs-trash-empty
+      - gnome-fs-trash-empty-accept
+      - gnome-stock-trash
+      - trashcan_empty
+      - user-trash
+      - xfce-trash_empty
+    categories: [places]
+    sizes:
+      512: osx-trash-empty-1.png
+
+  # Full Trash
+  - names:
+      - gnome-dev-trash-full
+      - gnome-fs-trash-full
+      - gnome-stock-trash-full
+      - stock_trash_full
+      - trashcan_full
+      - user-trash-full
+      - xfce-trash_full
+    categories: [places]
+    sizes:
+      512: osx-trash-full-1.png
