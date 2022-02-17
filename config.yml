@@ -106,6 +106,16 @@ icons:
     sizes:
       512: osx-finder-1.png
 
+  # App Store, Software Center, Software Manager
+  - names:
+      - mintinstall
+      - softwarecenter
+      - softwarecenter-ubuntu
+      - softwarecenter-debian
+    categories: [apps]
+    sizes:
+      512: osx-app-store-1.png
+
   #-------------------------------------------------------#
   # PLACES                                                #
   #-------------------------------------------------------#
