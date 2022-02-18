@@ -13,17 +13,73 @@ icons:
     categories: [actions]
     sizes:
       512: floppy-disk-1.png
-  
+
+  # Save As
+  - names:
+      - document-save-as-symbolic
+      - document-save-as
+      - filesaveas
+      - gtk-save-as
+      - stock_save-as
+    categories: [actions]
+    sizes:
+      512: floppy-disk-with-pen-1.png
+
+  # Cut
+  - names:
+      - edit-cut
+      - edit-cut-symbolic # See: /usr/share/icons/Adwaita/16x16/actions
+      - editcut
+      - gtk-cut
+      - stock_cut
+    categories: [actions]
+    sizes:
+      16: scissors-1.png
+
   # Copy
   - names:
-      - edit-copy-symbolic
       - edit-copy
+      - edit-copy-symbolic # See: /usr/share/icons/Adwaita/16x16/actions
       - editcopy
       - gtk-copy
       - stock_copy
     categories: [actions]
     sizes:
+      16: two-documents-2.png
       512: two-documents-1.png
+  
+  # Paste
+  - names:
+      - edit-paste
+      - edit-paste-symbolic
+      - editpaste
+      - gtk-paste
+      - stock_paste
+    categories: [actions]
+    sizes:
+      16: clipboard-with-document-1.png
+  
+  # Delete
+  - names:
+      - edit-delete
+      - edit-delete-symbolic
+      - editdelete
+      - gtk-delete
+      - stock_delete
+    categories: [actions]
+    sizes:
+      16: x-in-red-square-1.png
+  
+  # Print
+  - names:
+      - document-print
+      - document-print-symbolic # See: /usr/share/icons/Adwaita/16x16/actions
+      - fileprint
+      - gtk-print
+      - stock_print
+    categories: [actions]
+    sizes:
+      16: printer-1.png
 
   #-------------------------------------------------------#
   # APPLICATIONS                                          #
@@ -89,8 +145,8 @@ icons:
       - user-desktop
     categories: [apps, places]
     sizes:
-      24: desktop-2.png
-      512: desktop-1.png
+      24: desktop-3.png
+      512: desktop-3.png
 
   # Rhythmbox, iTunes
   - names:
