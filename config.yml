@@ -135,6 +135,7 @@ icons:
   
   # Desktop
   - names:
+      - cs-desktop
       - desktop
       - gnome-ccdesktop
       - gnome-desktop-config
@@ -143,10 +144,18 @@ icons:
       - org.xfce.xfdesktop
       - other-desktop
       - user-desktop
+      - user-desktop-symbolic
     categories: [apps, places]
     sizes:
-      24: desktop-3.png
+      48: osx-place-desktop.png
       512: desktop-3.png
+
+  # Effects
+  - names:
+      - cs-desktop-effects
+    categories: [apps, categories]
+    sizes:
+      48: magicians-hat-1.png
 
   # Rhythmbox, iTunes
   - names:
@@ -197,9 +206,34 @@ icons:
       - folder-download
       - folder_download
       - folder-downloads
+      - folder-downloads-symbolic
     categories: [places]
     sizes:
+      24: osx-place-downloads.png
+      32: osx-folder-downloads-2.png
       512: osx-folder-downloads-1.png
+
+  # Music Folder
+  - names:
+      - folder-music
+      - folders-music
+      - folder-music-symbolic
+    categories: [places]
+    sizes:
+      24: osx-place-music-1.png
+      32: osx-folder-music-2.png
+      512: osx-folder-music-1.png
+
+  # Pictures Folder
+  - names:
+      - folder-pictures
+      - folder_pictures
+      - folder-pictures-symbolic
+    categories: [places]
+    sizes:
+      24: osx-place-pictures-1.png
+      32: osx-folder-pictures-2.png
+      512: osx-folder-pictures-1.png
 
   # Home
   - names:

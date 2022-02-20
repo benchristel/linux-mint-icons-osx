@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# shows the Mint-X icon associated with a name
+
+ICON_NAME="$1"
+
+if [ -z "$ICON_NAME" ]; then
+  >&2 echo "Error: no ICON_NAME provided"
+  >&2 echo "Usage: $0 ICON_NAME"
+  exit 2
+fi
+
+gnomesize() {
+  if [ "$1" = "scalable" ]; then
+    echo "scalable"
+  else
+    echo "${1}x${1}"
+  fi
+}
+
+largest() {
+  # list the icon files matching the given name in the Mint-X and gnome
+  # themes, in descending order of image size.
+  local icon_name="$1"
+  local sizes="512 256 128 96 64 48 32 24 22 16 scalable"
+  for size in $sizes; do
+    ls /usr/share/icons/Mint-X/*/"$size"/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/gnome/$(gnomesize $size)/*/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/hicolor/$(gnomesize $size)/*/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/Adwaita/$(gnomesize $size)/*/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/locolor/$(gnomesize $size)/*/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/HighContrast/$(gnomesize $size)/*/"$icon_name".*
+  done
+  for size in $sizes; do
+    ls /usr/share/icons/Mint-Y/*/$size/"$icon_name".*
+  done
+}
+
+largest "$ICON_NAME"
+
+LARGEST="$(2>/dev/null largest "$ICON_NAME" | head -1)"
+
+if [ -z "$LARGEST" ]; then
+  >&2 echo "Not found: $ICON_NAME"
+  exit 1
+fi
+
+echo "$LARGEST"
+xdg-open "$LARGEST"
+
