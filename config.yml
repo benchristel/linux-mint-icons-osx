@@ -257,6 +257,29 @@ icons:
       32: osx-place-pictures-1-32x32.png
       512: osx-folder-pictures-1.png
 
+  # Public Folder, Shared Folder
+  - names:
+      - folder-publicshare
+      - folder-publicshare-symbolic
+      - folders-publicshare
+    categories: [places]
+    sizes:
+      16: osx-place-public-1-16x16.png
+      32: osx-place-public-1-32x32.png
+      512: osx-folder-public-1.png
+
+  # Videos Folder, Movies Folder
+  - names:
+      - folder-video
+      - folder-video-alt
+      - folder-videos
+      - folder-videos-symbolic
+    categories: [places]
+    sizes:
+      16: osx-place-movies-1-16x16.png
+      32: osx-place-movies-1-32x32.png
+      512: osx-folder-movies-1.png
+
   # Home
   - names:
       - folder_home
