@@ -46,8 +46,6 @@ largest() {
   done
 }
 
-largest "$ICON_NAME"
-
 LARGEST="$(2>/dev/null largest "$ICON_NAME" | head -1)"
 
 if [ -z "$LARGEST" ]; then
