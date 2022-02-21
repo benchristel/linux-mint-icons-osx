@@ -147,6 +147,7 @@ icons:
       - user-desktop-symbolic
     categories: [apps, places]
     sizes:
+      16: osx-place-desktop-2-16x16.png
       48: osx-place-desktop.png
       512: desktop-3.png
 
@@ -169,7 +170,7 @@ icons:
       - system-file-manager
     categories: [apps]
     sizes:
-      512: osx-finder-1.png
+      512: osx-finder-2.png
 
   # App Store, Software Center, Software Manager
   - names:
@@ -199,7 +200,17 @@ icons:
       - stock_folder
     categories: [places]
     sizes:
+      16: osx-folder-2-16x16.png
+      32: osx-folder-2-32x32.png
       512: osx-folder-1.png
+
+  # Applications Folder, Apps Folder
+  - names:
+      - application-default-icon
+    categories: [places, apps]
+    sizes:
+      16: osx-place-applications-1-16x16.png
+      512: osx-place-applications-1-512x512.png
 
   # Downloads Folder
   - names:
@@ -209,9 +220,20 @@ icons:
       - folder-downloads-symbolic
     categories: [places]
     sizes:
-      24: osx-place-downloads.png
-      32: osx-folder-downloads-2.png
+      16: osx-place-downloads-2-16x16.png
+      32: osx-place-downloads-2-32x32.png
       512: osx-folder-downloads-1.png
+
+  # Documents Folder
+  - names:
+      - folder-documents
+      - folders-documents
+      - folders-documents-symbolic
+    categories: [places]
+    sizes:
+      16: osx-place-documents-1-16x16.png
+      32: osx-place-documents-1-32x32.png
+      512: osx-folder-documents-1.png
 
   # Music Folder
   - names:
@@ -220,8 +242,8 @@ icons:
       - folder-music-symbolic
     categories: [places]
     sizes:
-      24: osx-place-music-1.png
-      32: osx-folder-music-2.png
+      16: osx-place-music-2-16x16.png
+      32: osx-place-music-2-32x32.png
       512: osx-folder-music-1.png
 
   # Pictures Folder
@@ -231,8 +253,8 @@ icons:
       - folder-pictures-symbolic
     categories: [places]
     sizes:
-      24: osx-place-pictures-1.png
-      32: osx-folder-pictures-2.png
+      16: osx-place-pictures-1-16x16.png
+      32: osx-place-pictures-1-32x32.png
       512: osx-folder-pictures-1.png
 
   # Home
@@ -244,6 +266,8 @@ icons:
       - user-home
     categories: [places]
     sizes:
+      16: osx-home-2-16x16.png
+      32: osx-home-2-32x32.png
       512: osx-home-1.png
 
   # Trash
