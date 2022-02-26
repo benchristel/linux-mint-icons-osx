@@ -305,7 +305,8 @@ icons:
       - xfce-trash_empty
     categories: [places]
     sizes:
-      512: osx-trash-empty-1.png
+      16: osx-trash-empty-2-16x16.png
+      512: osx-trash-empty-2.png
 
   # Full Trash
   - names:
@@ -318,4 +319,5 @@ icons:
       - xfce-trash_full
     categories: [places]
     sizes:
-      512: osx-trash-full-1.png
+      16: osx-trash-full-2-16x16.png
+      512: osx-trash-full-2.png
