@@ -18,8 +18,12 @@ To customize this icon theme, you'll need Ruby 2.7 and `magick` (the
 imagemagick CLI) installed. Other versions of Ruby might work too; I haven't
 tried them though.
 
-Once you have those, you can change `config.yml` and run `build.rb` to
-generate the icons. The build tool looks for image files in `src/`.
+- **Ruby 2.7**: `apt install ruby`.
+- **imagemagick**: download the portable `magick` binary from here: https://imagemagick.org/script/download.php. Put it in your PATH, e.g. `/usr/local/bin/magick`
+
+Once you have those tools installed, you can change `config.yml` and run
+`build.rb` to generate the icons. The build tool looks for image files in
+`src/`.
 
 `rspec spec` runs the tests for the build tool.
 
