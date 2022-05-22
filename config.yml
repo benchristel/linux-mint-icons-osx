@@ -182,6 +182,28 @@ icons:
     sizes:
       512: osx-app-store-1.png
 
+  # Firefox
+  - names:
+      - firefox
+      - firefox3
+      - firefox-3.0
+      - firefox-3.5
+      - firefox-4.0
+      - firefox-aurora
+      - firefox-default
+      - firefox-developer-icon
+      - firefox-esr
+      - firefox-gtk3
+      - firefox-icon
+      - firefox-nightly
+      - firefox-nightly-icon
+      - firefox-original
+      - firefox-trunk
+      - mozilla-firefox
+    categories: [apps]
+    sizes:
+      512: mozilla-firefox-1.png
+
   #-------------------------------------------------------#
   # PLACES                                                #
   #-------------------------------------------------------#
