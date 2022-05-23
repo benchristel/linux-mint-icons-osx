@@ -178,6 +178,7 @@ icons:
       - softwarecenter
       - softwarecenter-ubuntu
       - softwarecenter-debian
+      - software-properties-mint
     categories: [apps]
     sizes:
       512: osx-app-store-1.png
