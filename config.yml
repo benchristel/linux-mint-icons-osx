@@ -47,7 +47,7 @@ icons:
     sizes:
       16: two-documents-2.png
       512: two-documents-1.png
-  
+
   # Paste
   - names:
       - edit-paste
@@ -58,7 +58,7 @@ icons:
     categories: [actions]
     sizes:
       16: clipboard-with-document-1.png
-  
+
   # Delete
   - names:
       - edit-delete
@@ -69,7 +69,7 @@ icons:
     categories: [actions]
     sizes:
       16: x-in-red-square-1.png
-  
+
   # Print
   - names:
       - document-print
@@ -91,7 +91,7 @@ icons:
     categories: [apps]
     sizes:
       512: textedit-1.png
-  
+
   # System Preferences, System Settings
   - names:
       - configuration_section
@@ -125,14 +125,48 @@ icons:
     categories: [apps]
     sizes:
       512: wordmac-1.png
-  
+
+  # LibreOffice Calc, Microsoft Excel
+  - names:
+      - libreoffice34-calc
+      - libreoffice3-calc
+      - libreoffice-calc
+      - org.libreoffice.LibreOffice-calc
+    categories: [apps]
+    sizes:
+      512: MicrosoftExcel.png
+
+  # LibreOffice Impress, Microsoft PowerPoint
+  - names:
+      - libreoffice34-impress
+      - libreoffice3-impress
+      - libreoffice-impress
+      - org.libreoffice.LibreOffice-impress
+    categories: [apps]
+    sizes:
+      512: MicrosoftPowerPoint.png
+
+  # Calendar, iCal
+  - names:
+      - calendar
+      - gnome-calendar
+      - office-calendar
+      - org.gnome.Calendar
+      - org.gnome.Calendar.Devel
+      - stock_calendar
+      - vcalendar
+      - x-office-calendar
+    categories: [apps]
+    sizes:
+      512: iCal.png
+
   # Chromium, Google Chrome
   - names:
       - chromium
     categories: [apps]
     sizes:
       512: googlechrome-1.png
-  
+
   # Desktop
   - names:
       - cs-desktop
@@ -164,7 +198,7 @@ icons:
     categories: [apps]
     sizes:
       512: itunes-1.png
-  
+
   # System File Manager, Nemo, Finder
   - names:
       - system-file-manager
