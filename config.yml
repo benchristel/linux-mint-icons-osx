@@ -386,3 +386,56 @@ icons:
     sizes:
       16: osx-trash-full-2-16x16.png
       512: osx-trash-full-2.png
+
+  # Battery - Full, Plugged In
+  - names:
+      - battery-full-charged-symbolic
+    categories: [status]
+    sizes:
+      22: battery-plugged.png
+
+  # Battery - Charging
+  - names:
+      - battery-empty-charging-symbolic
+      - battery-caution-charging-symbolic
+      - battery-low-charging-symbolic
+      - battery-good-charging-symbolic
+      - battery-full-charging-symbolic
+    categories: [status]
+    sizes:
+      22: battery-charging-2.png
+
+  # Battery - Full, Discharging
+  - names:
+      - battery-full-symbolic
+    categories: [status]
+    sizes:
+      22: battery-100.png
+
+  # Battery - Good (60%), Discharging
+  - names:
+      - battery-good-symbolic
+    categories: [status]
+    sizes:
+      22: battery-060.png
+
+  # Battery - Low (30%), Discharging
+  - names:
+      - battery-low-symbolic
+    categories: [status]
+    sizes:
+      22: battery-030.png
+
+  # Battery - Caution (10%), Discharging
+  - names:
+      - battery-low-symbolic
+    categories: [status]
+    sizes:
+      22: battery-010.png
+
+  # Battery - Empty (0%), Discharging
+  - names:
+      - battery-low-symbolic
+    categories: [status]
+    sizes:
+      22: battery-000.png
