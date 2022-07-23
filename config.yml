@@ -163,6 +163,14 @@ icons:
   # Chromium, Google Chrome
   - names:
       - chromium
+      - chromium-browser
+      - chromium-browser2
+      - chromium-browser-old
+      - google-chrome
+      - google-chrome2
+      - google-chrome-beta
+      - google-chrome-old
+      - google-chrome-stable
     categories: [apps]
     sizes:
       512: googlechrome-1.png
