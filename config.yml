@@ -439,3 +439,31 @@ icons:
     categories: [status]
     sizes:
       22: battery-000.png
+
+  # Volume - High
+  - names:
+      - audio-volume-high-symbolic
+    categories: [status]
+    sizes:
+      22: volume-high.png
+
+  # Volume - Medium
+  - names:
+      - audio-volume-medium-symbolic
+    categories: [status]
+    sizes:
+      22: volume-med.png
+
+  # Volume - Low
+  - names:
+      - audio-volume-low-symbolic
+    categories: [status]
+    sizes:
+      22: volume-low.png
+
+  # Volume - Mute, Off
+  - names:
+      - audio-volume-muted-symbolic
+    categories: [status]
+    sizes:
+      22: volume-mute.png
