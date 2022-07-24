@@ -428,14 +428,14 @@ icons:
 
   # Battery - Caution (10%), Discharging
   - names:
-      - battery-low-symbolic
+      - battery-caution-symbolic
     categories: [status]
     sizes:
       22: battery-010.png
 
   # Battery - Empty (0%), Discharging
   - names:
-      - battery-low-symbolic
+      - battery-empty-symbolic
     categories: [status]
     sizes:
       22: battery-000.png

@@ -17,9 +17,9 @@
    viewBox="0 0 22 22"
    sodipodi:docname="battery-plugged.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/ben/.icons/osx/src/battery-charging.png"
-   inkscape:export-xdpi="72"
-   inkscape:export-ydpi="72">
+   inkscape:export-filename="/home/ben/.icons/osx/src/battery-plugged.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <metadata
      id="metadata1448">
     <rdf:RDF>
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -48,10 +48,10 @@
      id="namedview1444"
      showgrid="true"
      inkscape:zoom="16"
-     inkscape:cx="11.854166"
+     inkscape:cx="1.072916"
      inkscape:cy="17.166666"
      inkscape:window-x="0"
-     inkscape:window-y="21"
+     inkscape:window-y="22"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1442">
     <inkscape:grid
@@ -63,20 +63,7 @@
      width="22"
      height="22"
      preserveAspectRatio="none"
-     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9
-kT1Iw0AcxV9TpSIVFQuKKGSoThZERRy1CkWoEGqFVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAI
-foA4OjkpukiJ/2sKLWI8OO7Hu3uPu3eAUC0yzWobBzTdNhOxqJhKr4qBVwTQjx70YlhmljEnSXF4
-jq97+Ph6F+FZ3uf+HF1qxmKATySeZYZpE28QT2/aBud94hDLyyrxOfGYSRckfuS64vIb51ydBZ4Z
-MpOJeeIQsZhrYaWFWd7UiKeIw6qmU76QclnlvMVZK5ZZ4578hcGMvrLMdZpDiGERS5AgQkEZBRRh
-I0KrToqFBO1HPfyDdb9ELoVcBTByLKAEDXLdD/4Hv7u1spMTblIwCrS/OM7HCBDYBWoVx/k+dpza
-CeB/Bq70pr9UBWY+Sa80tfAR0L0NXFw3NWUPuNwBBp4M2ZTrkp+mkM0C72f0TWmg7xboXHN7a+zj
-9AFIUlfxG+DgEBjNUfa6x7s7Wnv790yjvx9VPXKboma39wAAAAZiS0dEAAAAAAAA+UO7fwAAAAlw
-SFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+YHFxEJFkvVJlYAAADXSURBVDjL7ZS9DkFBEIW/lesR
-dDq9aNQiGolKpVV5Fh2JFxCJKISIt1DqBKVG0Gho3Ks5Vya3tFdBnGQyk93NmZ/MWfjj65ED9kDk
-aZeYMJDvAgVgoAfOJM0Yc7p/GDIHZIEOsEhWHAIjj45rStKy1TSUdepBXJJf21EUFa88iAvyG+Cg
-kdJXGz6YGY47cAs+sGEunvFZB3kPspOJr0AvALY6qADjN4l38mVp4oUImKewbu2kQJZAE5hop50R
-QLznYUIYsYVGUFVgaDPWgWMKkr7+f8cfwBP4iVA8hsF/aQAAAABJRU5ErkJggg==
-"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABhGlDQ1BJQ0MgcHJvZmlsZQAAKJF9 kT1Iw0AcxV9TpSIVFQuKKGSoThZERRy1CkWoEGqFVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAI foA4OjkpukiJ/2sKLWI8OO7Hu3uPu3eAUC0yzWobBzTdNhOxqJhKr4qBVwTQjx70YlhmljEnSXF4 jq97+Ph6F+FZ3uf+HF1qxmKATySeZYZpE28QT2/aBud94hDLyyrxOfGYSRckfuS64vIb51ydBZ4Z MpOJeeIQsZhrYaWFWd7UiKeIw6qmU76QclnlvMVZK5ZZ4578hcGMvrLMdZpDiGERS5AgQkEZBRRh I0KrToqFBO1HPfyDdb9ELoVcBTByLKAEDXLdD/4Hv7u1spMTblIwCrS/OM7HCBDYBWoVx/k+dpza CeB/Bq70pr9UBWY+Sa80tfAR0L0NXFw3NWUPuNwBBp4M2ZTrkp+mkM0C72f0TWmg7xboXHN7a+zj 9AFIUlfxG+DgEBjNUfa6x7s7Wnv790yjvx9VPXKboma39wAAAAZiS0dEAAAAAAAA+UO7fwAAAAlw SFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+YHFxEJFkvVJlYAAADXSURBVDjL7ZS9DkFBEIW/lesR dDq9aNQiGolKpVV5Fh2JFxCJKISIt1DqBKVG0Gho3Ks5Vya3tFdBnGQyk93NmZ/MWfjj65ED9kDk aZeYMJDvAgVgoAfOJM0Yc7p/GDIHZIEOsEhWHAIjj45rStKy1TSUdepBXJJf21EUFa88iAvyG+Cg kdJXGz6YGY47cAs+sGEunvFZB3kPspOJr0AvALY6qADjN4l38mVp4oUImKewbu2kQJZAE5hop50R QLznYUIYsYVGUFVgaDPWgWMKkr7+f8cfwBP4iVA8hsF/aQAAAABJRU5ErkJggg== "
      id="image1450"
      x="0"
      y="2.4980018e-16" />
