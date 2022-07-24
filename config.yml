@@ -486,3 +486,46 @@ icons:
     categories: [status]
     sizes:
       22: bluetooth-inactive.png
+  
+  # Network, Signal Excellent
+  - names:
+      - network-wireless-signal-excellent-symbolic
+      - network-wireless-signal-excellent-secure-symbolic
+      - network-wireless-signal-good-symbolic
+      - network-wireless-signal-good-secure-symbolic
+    categories: [status]
+    sizes:
+      22: network-high.png
+  
+  # Network, Signal OK
+  - names:
+      - network-wireless-signal-ok-symbolic
+      - network-wireless-signal-ok-secure-symbolic
+    categories: [status]
+    sizes:
+      22: network-med.png
+
+  # Network, Signal Weak
+  - names:
+      - network-wireless-signal-weak-symbolic
+      - network-wireless-signal-weak-secure-symbolic
+    categories: [status]
+    sizes:
+      22: network-low.png
+  
+  # Network, No Signal
+  - names:
+      - network-wireless-signal-none-symbolic
+      - network-wireless-signal-none-secure-symbolic
+    categories: [status]
+    sizes:
+      22: network-none.png
+  
+  # Network Disconnected
+  - names:
+      - network-wireless-offline-symbolic
+      - network-offline-symbolic
+      - network-wireless-hardware-disabled-symbolic
+    categories: [status]
+    sizes:
+      22: network-off.png
