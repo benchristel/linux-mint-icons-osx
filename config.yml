@@ -387,6 +387,10 @@ icons:
       16: osx-trash-full-2-16x16.png
       512: osx-trash-full-2.png
 
+  #-------------------------------------------------------#
+  # STATUS                                                #
+  #-------------------------------------------------------#
+
   # Battery - Full, Plugged In
   - names:
       - battery-full-charged-symbolic
@@ -467,3 +471,18 @@ icons:
     categories: [status]
     sizes:
       22: volume-mute.png
+
+  # Bluetooth Active, Blueberry
+  - names:
+      - blueberry-tray-active-symbolic
+      - blueberry-tray-symbolic
+    categories: [status]
+    sizes:
+      22: bluetooth.png
+
+  # Bluetooth Inactive, Disabled, Blueberry
+  - names:
+      - blueberry-tray-disabled-symbolic
+    categories: [status]
+    sizes:
+      22: bluetooth-inactive.png
